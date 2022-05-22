@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts icon cdn link  -->
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <!-- custom css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style/rest.css.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Project 1 - Navigation Bar</title>
+  </head>
+  <body>
+    <!-- top mav bar -->
+    <nav>
+      <div class="container nav-container">
+        <div class="brand-logo">
+          <img src="./images/brand.webp" alt="" />
+        </div>
+        <div class="nav-items-container">
+          <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+            <li class="btn"><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main content -->
+    <main class="container">
+      <h1>Contact US</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+        reiciendis voluptatum officiis quis! Rerum quas fuga iure est nam,
+        deserunt debitis, eum corrupti excepturi voluptates minus nesciunt
+        eveniet? Perferendis accusantium ipsum deleniti illum sunt laborum
+        maxime. Qui repudiandae quasi natus?
+      </p>
+      <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label for="name">Enter your name</label>
+            <input
+              class="form-input-group"
+              type="text"
+              placeholder="Jhon Doe"
+              id="name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Enter your email</label>
+            <input
+              class="form-input-group"
+              type="text"
+              placeholder="jhon@gmail.com"
+              id="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">What is your subject</label>
+            <input
+              class="form-input-group"
+              type="text"
+              placeholder="Schedule a meeting"
+              id="subject"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Write down your message</label>
+            <textarea
+              class="form-textarea"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="form-control">
+            <input class="form-submit-button" type="submit" value="submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- main footer -->
+    <hr class="footer" />
+    <footer class="container">
+      <div class="icons">
+        <a target="_blank" href="https://github.com/mozahid679">
+          <span>
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+        <a target="_blank" href="https://twitter.com/mozahid679">
+          <span>
+            <i class="fa fa-twitter"></i>
+          </span>
+        </a>
+      </div>
+      <p>
+        Iceberg Gastby is a PWA, save it fo offline reading
+        <a href="#">see more PWA here</a>
+      </p>
+      <p>
+        Maintained by <a href="#">@_diogorodrigues</a> . You can always
+        contribute with the project on <a href="#">Github</a>.
+      </p>
+    </footer>
+  </body>
+</html>
